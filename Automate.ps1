@@ -1,4 +1,4 @@
-$url="https://github.com/JChenaultKCCMFG/Automate/"
+$url="https://github.com/JChenaultKCCMFG/KCC_Automate/archive/refs/heads/main.zip"
 $zip="C:\_KCC\Automate.zip"
 New-Item "C:\_KCC -Type Directory
 Invoke-WebRequest $url -OutFile $zip
